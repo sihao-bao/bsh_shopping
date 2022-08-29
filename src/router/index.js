@@ -27,10 +27,15 @@ const routes = [
         component: () => import('../views/Shoplist.vue')
       },
     ]
-  }
+  },
+  {
+    path: '/element',
+    name: 'Element',
+    component: () => import('../views/Element.vue')
+  },
 ]
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 })

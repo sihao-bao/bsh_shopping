@@ -48,6 +48,7 @@ export default {
 	},
 	created() {
 		this.$store.dispatch('getListAsync');
+		
 	},
 	mounted() {
 		// 订阅者传参

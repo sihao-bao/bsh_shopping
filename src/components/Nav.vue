@@ -10,6 +10,9 @@
             <li>
                 <router-link to="/hotSeller">热销商品</router-link>
             </li>
+            <!-- <li>
+                <router-link to="/element">element-UI</router-link>
+            </li> -->
         </ul>
     </div>
 </template>
