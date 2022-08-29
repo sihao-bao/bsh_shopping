@@ -20,13 +20,13 @@ const routes = [
     path: '/hotSeller',
     name: 'HotSeller',
     component: () => import('../views/HotSeller.vue'),
-    children: [
-      {
-        path: '',
-        name: 'all',
-        component: () => import('../views/Shoplist.vue')
-      },
-    ]
+    // children: [
+    //   {
+    //     path: '',
+    //     name: 'all',
+    //     component: () => import('../views/Shoplist.vue')
+    //   },
+    // ]
   },
   {
     path: '/element',
